@@ -27,8 +27,6 @@ var/
 *.egg
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -68,15 +66,21 @@ coverage.xml
 # PyCharm
 .idea/
 
-# Data and model files (if you don't want to push them)
-*.pkl
-*.csv
+# Python virtual environments
+.env/
 
-# Plots and images
-*.png
-*.jpg
-*.jpeg
-*.html
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# GitHub Actions
-.github/
+# Log files
+*.log
+
+# Test outputs
+test_output/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
